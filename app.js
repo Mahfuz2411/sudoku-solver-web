@@ -172,7 +172,7 @@ for (let idt = 1; idt < 10; idt++) {
 //! numButton created above
 const numButton = document.querySelectorAll(".numButton");
 numButton.forEach((button, i) => {
-  button.addEventListener("keypress", () => {
+  button.addEventListener("click", () => {
     const spcButton = document.querySelector(".spcButton");
     if (spcButton) {
       const { row, col } = idToIndex(selectedId);
